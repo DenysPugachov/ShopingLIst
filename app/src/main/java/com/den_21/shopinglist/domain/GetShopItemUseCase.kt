@@ -1,6 +1,6 @@
 package com.den_21.shopinglist.domain
 
-class GetListItemUseCase {
+class GetShopItemUseCase {
 
     fun getListItem() {
         //todo

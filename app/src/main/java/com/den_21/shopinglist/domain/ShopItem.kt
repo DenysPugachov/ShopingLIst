@@ -1,6 +1,6 @@
 package com.den_21.shopinglist.domain
 
-data class ShoppingListItem(
+data class ShopItem(
     val title: String,
     val quantity: Int,
     val isEnabled: Boolean,

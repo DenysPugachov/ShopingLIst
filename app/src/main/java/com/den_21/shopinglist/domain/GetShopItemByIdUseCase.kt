@@ -1,6 +1,6 @@
 package com.den_21.shopinglist.domain
 
-class GetListItemByIdUseCase {
+class GetShopItemByIdUseCase {
 
     fun getListItemById(id: Int) {
         //todo
