@@ -1,8 +1,8 @@
 package com.den_21.shopinglist.domain
 
-class GetShopItemByIdUseCase {
+class GetShopItemByIdUseCase(private val shopListRepository: ShopListRepository) {
 
-    fun getListItemById(id: Int) {
-        //todo
+    fun getShopItemById(id: Int) {
+        shopListRepository.getShopItemById(id)
     }
 }

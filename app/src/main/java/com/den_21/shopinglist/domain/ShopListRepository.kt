@@ -2,16 +2,14 @@ package com.den_21.shopinglist.domain
 
 interface ShopListRepository {
 
-    fun addListItem(listItem: ShopItem)
+    fun addShopItem(listItem: ShopItem)
 
-    fun editListItem(listItem: ShopItem)
+    fun editShopItem(listItem: ShopItem)
 
-    fun deleteListItem(listItem: ShopItem)
+    fun deleteShopItem(listItem: ShopItem)
 
-    fun getListItem(): List<ShopItem>
+    fun getShopItemById(id: Int): ShopItem
 
-    fun getListItemById(id: Int): ShopItem
+    fun getShopList():List<ShopItem>
 
 }
-
-//TODO: connect this interface with UseCaseClasses
