@@ -2,11 +2,11 @@ package com.den_21.shopinglist.domain
 
 interface ShopListRepository {
 
-    fun addShopItem(listItem: ShopItem)
+    fun addShopItem(shopItem: ShopItem)
 
-    fun editShopItem(listItem: ShopItem)
+    fun editShopItem(shopItem: ShopItem)
 
-    fun deleteShopItem(listItem: ShopItem)
+    fun deleteShopItem(shopItem: ShopItem)
 
     fun getShopItemById(id: Int): ShopItem
 

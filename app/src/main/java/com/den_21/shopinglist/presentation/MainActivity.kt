@@ -1,7 +1,7 @@
 package com.den_21.shopinglist.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.den_21.shopinglist.R
 
 class MainActivity : AppCompatActivity() {
