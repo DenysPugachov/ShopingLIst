@@ -7,7 +7,7 @@ data class ShopItem(
     var id: Int = UNDEFINED_ID
 ) {
     companion object {
-        //to avoid magical numbers
+        //to avoid magical numbers anti pattern
         const val UNDEFINED_ID = -1
     }
 }
